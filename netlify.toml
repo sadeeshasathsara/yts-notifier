@@ -1,0 +1,5 @@
+[build]
+  functions = "netlify/functions"
+
+[functions."yts-notifier"]
+  schedule = "0 */2 * * *"

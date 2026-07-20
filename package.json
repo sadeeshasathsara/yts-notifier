@@ -1,0 +1,19 @@
+{
+  "name": "yts-telegram-notifier",
+  "version": "1.0.0",
+  "description": "YTS to Telegram new release notifier on Netlify Scheduled Functions",
+  "main": "netlify/functions/yts-notifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "@netlify/functions": "^3.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.34.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
